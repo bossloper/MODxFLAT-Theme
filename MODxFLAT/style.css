@@ -1915,9 +1915,13 @@ float:left;
     color: #499bea;
     padding: 0 5px 0 5px;
 }
- img.expandbuttn 
+.sectionHeader a i.expandbuttn 
 {
- float:right}
+display: block;
+ float:right;
+ color: #FFFFFF;
+ font-size:14px;
+ padding-top:4px;}
 .dashrow {
 	clear:both;
 }

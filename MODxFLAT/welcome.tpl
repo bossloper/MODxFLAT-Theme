@@ -19,7 +19,7 @@ function doHideShow(divName){
 [+OnManagerWelcomeHome+]
      <!--end social links--->
 <div class="dashboard-block-full">
-<div class="sectionHeader"><i class="fa fa-home"></i> [+welcome_title+]<a href="javascript:void(null);" onclick="doHideShow('idShowHide1');"><img src="media/style/[+theme+]/images/fontaw/expand-alt2.png" class="expandbuttn"/></a></div>
+<div class="sectionHeader"><i class="fa fa-home"></i> [+welcome_title+]<a href="javascript:void(null);" onclick="doHideShow('idShowHide1');"><i class="fa fa-bars expandbuttn"></i></a></div>
 			<div id="idShowHide1" class="sectionBody">
 
 
@@ -47,7 +47,7 @@ function doHideShow(divName){
 		<!-- user -->
 		<div class="dashboard-block-half">
 
-			<div class="sectionHeader"><i class="fa fa-info-circle"></i> Info<a href="javascript:void(null);" onclick="doHideShow('idShowHide2');"><img src="media/style/[+theme+]/images/fontaw/expand-alt2.png" class="expandbuttn"/></a></div><div id="idShowHide2" class="sectionBody">
+			<div class="sectionHeader"><i class="fa fa-info-circle"></i> Info<a href="javascript:void(null);" onclick="doHideShow('idShowHide2');"><i class="fa fa-bars expandbuttn"></i></a></div><div id="idShowHide2" class="sectionBody">
             <div class="dashboard-block-content">
 			  <i class="fa fa-info-circle fa-5x"></i>	[+UserInfo+]
                 </div>
@@ -58,7 +58,7 @@ function doHideShow(divName){
 		<div class="dashboard-block-half">
 
 
-			<div class="sectionHeader"><i class="fa fa-inbox"></i> Inbox<a href="javascript:void(null);" onclick="doHideShow('idShowHide3');"><img src="media/style/[+theme+]/images/fontaw/expand-alt2.png" class="expandbuttn"/></a></div><div id="idShowHide3" class="sectionBody">
+			<div class="sectionHeader"><i class="fa fa-inbox"></i> Inbox<a href="javascript:void(null);" onclick="doHideShow('idShowHide3');"><i class="fa fa-bars expandbuttn"></i></a></div><div id="idShowHide3" class="sectionBody">
              <div class="dashboard-block-content">
 			  <i class="fa fa-inbox fa-5x"></i>	[+MessageInfo+]
 </div>
@@ -78,7 +78,7 @@ function doHideShow(divName){
 		<!-- modx news -->
 		<div class="dashboard-block-half">
 
-			<div class="sectionHeader"><i class="fa fa-rss"></i> [+modx_news_title+]<a href="javascript:void(null);" onclick="doHideShow('idShowHide4');"><img src="media/style/[+theme+]/images/fontaw/expand-alt2.png" class="expandbuttn"/></a></div><div id="idShowHide4" class="sectionBody">
+			<div class="sectionHeader"><i class="fa fa-rss"></i> [+modx_news_title+]<a href="javascript:void(null);" onclick="doHideShow('idShowHide4');"><i class="fa fa-bars expandbuttn"></i></a></div><div id="idShowHide4" class="sectionBody">
             <div class="dashboard-block-content">
 			  <i class="fa fa-rss fa-5x"></i>	[+modx_news_content+]
                 </div>
@@ -89,7 +89,7 @@ function doHideShow(divName){
 		<div class="dashboard-block-half">
 
 
-			<div class="sectionHeader"><i class="fa fa-exclamation-triangle"></i> [+modx_security_notices_title+]<a href="javascript:void(null);" onclick="doHideShow('idShowHide5');"><img src="media/style/[+theme+]/images/fontaw/expand-alt2.png" class="expandbuttn"/></a></div><div id="idShowHide5" class="sectionBody">
+			<div class="sectionHeader"><i class="fa fa-exclamation-triangle"></i> [+modx_security_notices_title+]<a href="javascript:void(null);" onclick="doHideShow('idShowHide5');"><i class="fa fa-bars expandbuttn"></i></a></div><div id="idShowHide5" class="sectionBody">
              <div class="dashboard-block-content">
 			  <i class="fa fa-exclamation-triangle fa-5x"></i>	[+modx_security_notices_content+]</div>
 			</div>
@@ -99,7 +99,7 @@ function doHideShow(divName){
 		<!-- recent activities -->
 		<div class="dashboard-block-half">
 
-			<div class="sectionHeader"><i class="fa fa-pencil-square-o"></i> [+activity_title+]<a href="javascript:void(null);" onclick="doHideShow('idShowHide6');"><img src="media/style/[+theme+]/images/fontaw/expand-alt2.png" class="expandbuttn"/></a></div><div id="idShowHide6" class="sectionBody">
+			<div class="sectionHeader"><i class="fa fa-pencil-square-o"></i> [+activity_title+]<a href="javascript:void(null);" onclick="doHideShow('idShowHide6');"><i class="fa fa-bars expandbuttn"></i></a></div><div id="idShowHide6" class="sectionBody">
 
 			 <i class="fa fa-pencil-square-o  fa-5x"></i>	[+RecentInfo+]
 			</div>
@@ -110,7 +110,7 @@ function doHideShow(divName){
 		<!-- online info -->
 		<div class="dashboard-block-half" style="padding-left:0; padding-right:0">
 
-			<div class="sectionHeader"><i class="fa fa-users"></i> [+onlineusers_title+]<a href="javascript:void(null);" onclick="doHideShow('idShowHide7');"><img src="media/style/[+theme+]/images/fontaw/expand-alt2.png" class="expandbuttn"/></a></div><div id="idShowHide7" class="sectionBody">
+			<div class="sectionHeader"><i class="fa fa-users"></i> [+onlineusers_title+]<a href="javascript:void(null);" onclick="doHideShow('idShowHide7');"><i class="fa fa-bars expandbuttn"></i></a></div><div id="idShowHide7" class="sectionBody">
 			  <i class="fa fa-users  fa-5x"></i> 	[+OnlineInfo+]
 			</div>
 		</div>
