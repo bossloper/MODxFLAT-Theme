@@ -2011,6 +2011,9 @@ border-radius:3px;
 .wm_button.white a i{color: #ffffff!important;}
 .wm_button.black a i{color: #333333!important;}
 .wm_button.pink a i{color: #ff7997!important;}
+.wm_button.blueberry a i{color: #466baf!important;}
+.wm_button.purplewine a i{color: #b94b6f!important;}
+.wm_button.orange a i{color: #FF9900!important;}
 
 .green a.hometblink img{background: #aece4e;}
 .red a.hometblink img{background: #e77755;}
@@ -2021,5 +2024,7 @@ border-radius:3px;
 .white a.hometblink img{background: #ffffff;}
 .black a.hometblink img{background: #333333;}
 .pink a.hometblink img{background: #ff7997;}
-
+.blueberry a.hometblink img{background: #466baf;}
+.purplewine a.hometblink img{background: #b94b6f;}
+.orange a.hometblink img{background: #FF9900;}
 
