@@ -2028,3 +2028,27 @@ border-radius:3px;
 .purplewine a.hometblink img{background: #b94b6f;}
 .orange a.hometblink img{background: #FF9900;}
 
+/* fix*/
+#supplementalNav{font-size: 11px;}
+.dashboard-block-content {overflow: auto;}
+#mx_contextmenu{font-size:11px;}
+#treeRoot div img {background-color:transparent;}
+.treeNodeSelected, .treeNodeHover{border:1px solid #232b2d;
+ background-color:transparent;}
+.tab-pane ul li ul li{padding:4px 0 4px 4px;}
+.sectionHeader a i.expandbuttn{font-size:17px;}
+.actionButtons li {margin: 4px;}
+.treeButton:hover{background-color:transparent; color:#fff; border:1px solid
+ #232b2d;}
+#treeHolder .notInMenuNode{color:#80969c;}
+#nav li.active ul.subnav a{color:#fff;}
+#treeMenu a.treeButtonDisabled:hover{color:#fff;}
+.sectionHeader {box-shadow: 0 0px 0 #fff inset;}
+.dynamic-tab-pane-control .tab-row .tab.selected {border-color:#c6c6c6;}
+.dynamic-tab-pane-control .tab-row .tab.hover {border-color:#c6c6c6;}
+.actionButtons #Button1 a{margin-right:4px;}
+.actionButtons select#stay{margin: -4px 0 0;}
+.dynamic-tab-pane-control .tab-row .tab {padding-top:0;}
+ul.actionButtons {margin: 3px 0 6px 1px;}
+#which_editor{margin:5px 0 0;}
+.tab-pane ul li ul li{margin: 0 0 2px 2px;}
