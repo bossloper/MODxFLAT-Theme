@@ -2004,6 +2004,7 @@ border-radius:3px;
 }
 .wm_button.green a i{color: #aece4e!important;}
 .wm_button.red a i{color: #e77755!important;}
+.wm_button.red2 a i{color: #ea4848!important;}
 .wm_button.azure a i{color: #a5c8e5!important;}
 .wm_button.grey a i{color: #aaaaaa!important;}
 .wm_button.yellow a i{color: #f4c84f!important;}
@@ -2017,6 +2018,7 @@ border-radius:3px;
 
 .green a.hometblink img{background: #aece4e;}
 .red a.hometblink img{background: #e77755;}
+.red2 a.hometblink img{background: #ea4848;}
 .azure a.hometblink img{background: #a5c8e5;}
 .grey a.hometblink img{background: #aaaaaa;}
 .yellow a.hometblink img{background: #f4c84f;}
@@ -2056,3 +2058,66 @@ ul.actionButtons {margin: 3px 0 6px 1px;}
 .wm_button {margin: 2px 10px 2px 0;}
 .dashboard-block-full{width:100%;}
 .dashboard-block-half{width:50%;}
+
+/*fix and overwrite Package Manager Module styles*/
+
+a.button.deleteExtra img, .package a.button img
+{display: none;}
+.button {
+color: #fff!important;
+font-weight:bold; 
+font-size:13px; 
+padding:5px 9px!important; 
+white-space:nowrap; 
+vertical-align:top; 
+text-decoration:none; 
+outline:none; 
+border-radius:3px; 
+-webkit-border-radius:3px; 
+-moz-border-radius:3px; 
+background: #6dbe3e!important;
+background-image: none!important;
+
+}
+.deleteExtra {
+ background: #ea4848!important;
+ border: 1px solid #bf1616!important;
+}
+#tabpanel-packages H2:before, #tabpanel-local H2:before{
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    font-size:24px;
+    padding: 0 5px 0 5px;
+    color: #f4c84f!important;}
+#tabpanel-packages H2:before{
+    content:'\f187';}
+#tabpanel-packages H3:before, #tabpanel-local H3:before{
+    content:'\f187';
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    font-size:14px;
+    padding: 9px 7px 0 0;
+    color: #f4c84f!important;}
+#tabpanel-local H2:before{
+    content:'\f07c';}
+h2#tabs-packages:before, h2#tabs-local.tab:before{
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    font-size:14px;
+    padding: 9px 5px 0 0;
+    margin-left:-8px;
+    color: #f4c84f!important;}
+h2#tabs-packages:before{
+    content:'\f187';}
+h2#tabs-local.tab:before{
+    content:'\f07c';}
+    
+#searchPagination a, #searchPagination span {
+padding:6px 8px;
+background-color: #FFF;
+border: 1px solid #ddd;
+}
+
