@@ -734,7 +734,7 @@ background:none}
 }
 
 div.treeframebody {
-	background: #232b2d !important;
+	background: #232b2d;
 	-webkit-box-shadow: inset -2px 2px 6px 0px rgba(0, 0, 0, 0.1);
 	box-shadow: inset -2px 2px 6px 0px rgba(0, 0, 0, 0.1);
 }
@@ -2003,6 +2003,7 @@ border-radius:3px;
 	color: #333333;
 }
 .wm_button.green a i{color: #aece4e!important;}
+.wm_button.green2 a i{color: #6dbe3e!important;}
 .wm_button.red a i{color: #e77755!important;}
 .wm_button.red2 a i{color: #ea4848!important;}
 .wm_button.azure a i{color: #a5c8e5!important;}
@@ -2017,6 +2018,7 @@ border-radius:3px;
 .wm_button.orange a i{color: #FF9900!important;}
 
 .green a.hometblink img{background: #aece4e;}
+.green2 a.hometblink img{background: #6dbe3e;}
 .red a.hometblink img{background: #e77755;}
 .red2 a.hometblink img{background: #ea4848;}
 .azure a.hometblink img{background: #a5c8e5;}
