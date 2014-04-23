@@ -13,10 +13,10 @@
     line-height: 1.5; /* http://meyerweb.com/eric/thoughts/2006/02/08/unitless-line-heights/ */
     font-family: "Lucida Grande", Helvetica, Arial, sans-serif !important; /* IE ignores this and renders Arial better */
     font-family: Arial, Tahoma, Helvetica, sans-serif;height: 100%;color: #333;}
-    body {font-size: 75%; /* 12px 62.5% for 10px*/margin-bottom: 1px; /* avoid jumping scrollbars */background: #F4F4F4; text-shadow: 0 1px 0 #fff;}
+    body {font-size: 75%; /* 12px 62.5% for 10px*/margin-bottom: 1px; /* avoid jumping scrollbars */background: #232b2d; text-shadow: 0 1px 0 #fff;}
     h1 {padding:0;margin:0;font-weight:normal;font-size:218%;}
     form {border: 5px solid #EAECEE;padding:10px;}
-    .sectionHeader {padding: 5px 3px 5px 18px;font-weight: bold;color: #000;background: #EAECEE url(media/style/[+theme+]/images/misc/fade.gif) repeat-x top;}
+   .sectionHeader {color: #232b2d; font-size:16px; font-weight: normal; letter-spacing:1px; padding: 5px 3px 5px 18px; background: #fff; }
     .sectionBody {padding:20px;display:block;background: #fff;}
     #mx_loginbox {width: 460px;margin:30px auto 0;}
     fieldset.buttonset{text-align:center;border:none;padding-top:20px;}
@@ -25,6 +25,8 @@
     .notice {width: 100%;padding: 5px;border: 1px solid #eee;background-color: #F4F4F4;color: #707070;}
     #preLoader {position: absolute;z-index: 50000;width: 100%;height: 100%;text-align: center;vertical-align: middle;}
     .loginMessage {font-size:11px;color: #000;}
+    .greenbutt {padding: 5px; border: 1px solid #aece4e; background: #aece4e;}
+    .redbutt {padding: 5px; border: 1px solid #e77755; background: #e77755;}
 </style>
 
 <script type="text/javascript">
@@ -54,21 +56,21 @@
 
     <!-- the logo -->
     <div class="sectionHeader">
-        <img src='media/style/[+theme+]/images/misc/login-logo.png' alt='[+logo_slogan+]' />
+     <h1 class="siteName">[+site_name+]</h1>
     </div>
     <!-- end #mx_logobox -->
 
 
 
     <div class="sectionBody">
-        <h1 class="siteName">[+site_name+]</h1>
+
 
         <div class="loginMessage">[+manager_lockout_message+]</div>
 
 		<fieldset class="buttonset">
 
-        <input type="button" class="login" id="submitButton" value="[+home+]" onclick="return gotoHome();"  />&nbsp;
-        <input type="button" class="login" id="submitButton" value="[+logout+]" onclick="return doLogout();" />
+        <input type="button" class="login greenbutt" id="submitButton" value="[+home+]" onclick="return gotoHome();"  />&nbsp;
+        <input type="button" class="login redbutt" id="submitButton" value="[+logout+]" onclick="return doLogout();" />
         </fieldset>
     </div>
 

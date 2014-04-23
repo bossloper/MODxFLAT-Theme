@@ -4,6 +4,8 @@
     <title>MODx CMF Manager Login</title>
     <meta http-equiv="content-type" content="text/html; charset=[+modx_charset+]" />
     <meta name="robots" content="noindex, nofollow" />
+    <link rel="stylesheet" href="media/style/MODxFLAT/fontaw/css/font-awesome.min.css">
+
     <style type="text/css">
     /* Neutralize styles, fonts and viewport:
     ---------------------------------------------------------------- */
@@ -13,7 +15,7 @@
 	line-height: 1.5; /* http://meyerweb.com/eric/thoughts/2006/02/08/unitless-line-heights/ */
 		font-family: Tahoma, Verdana, Segoe, sans-serif; !important; /* IE ignores this and renders Arial better */
 	font-family: Arial, Tahoma, Helvetica, sans-serif;height: 100%;color: #333;}
-    body {font-size: 75%; /* 12px 62.5% for 10px*/margin-bottom: 1px; /* avoid jumping scrollbars */background: #F4F4F4;}
+    body {font-size: 75%; /* 12px 62.5% for 10px*/margin-bottom: 1px; /* avoid jumping scrollbars */background: #f1f1f1;}
     img, a img {border: 0 !important;text-decoration: none;padding: 0;margin: 0;}
     h1, h2, h3, h4, h5, h6, p, pre,
     blockquote, ul, ol, dl, address {margin: 0 0 .5em; /* Reset vertical margins on selected elements */padding: 0;}
@@ -37,26 +39,28 @@
 	#submitButton {
 	 }
     form {  }
-    .sectionHeader {color: #fff;
-font-size:16px;
+
+    .sectionHeader {color: #f1f1f1;
+    text-shadow:1px 1px 0 rgba(0,0,0,0.6);
+font-size:28px;
+text-align:center;
 font-weight: normal;
 letter-spacing:1px;
-padding: 5px 3px 5px 18px;
-background: #499bea;
+padding: 100px 3px 20px 18px;
+background: #232b2d;
+border-bottom: 3px solid #DDDDDD;
 	}
+
    .sectionHeader a,.sectionHeader a:active,.sectionHeader a:visited,.sectionHeader a:link {color: #FFF;text-decoration: none;}
     .sectionBody {padding: 2px 20px 20px;display: block;background: #f9f9f9;
 	    height: auto !important;
     height: 270px;
     min-height: 270px;
 }
-    #mx_loginbox {width: 460px;margin: 30px auto 0; border: 1px solid #ddd;
--moz-box-shadow:1px 1px 2px #ddd;
--webkit-box-shadow:1px 1px 2px #ddd;
-box-shadow:1px 1px 2px #ddd;
+    #mx_loginbox {width: 460px;margin: 5px auto 0; border: 1px solid #ddd;
 -moz-border-radius:3px; }
     img.loginCaptcha {border: 1px solid #039;width: 148px;height: 60px;}
-    label {display: block;font-weight: bold;}
+    label {display: block;font-weight: normal; font-size: 14px;}
     input {margin: 0 0 10px 0;}
     input.checkbox {float: left;clear: left;margin-right: 3px;}
     input.text {width: 400px;background: #fff;border:1px solid #ccc;padding:6px; 	-ms-border-radius:3px;
@@ -133,18 +137,18 @@ box-shadow:1px 1px 2px #ddd;
     </script>
 </head>
 <body id="login">
-<div class="logo"><img src="media/style/[+theme+]/images/misc/login-logo.png" alt="[+site_name+]" id="logo" /></div>
+ <div class="sectionHeader"><a href="../"><i class="fa fa-lock fa-lg"></i> [+site_name+]</a></div>
 <div id="mx_loginbox">
     <form method="post" name="loginfrm" id="loginfrm" action="processors/login.processor.php">
     <!-- anything to output before the login box via a plugin? -->
     [+OnManagerLoginFormPrerender+]
-        <div class="sectionHeader"><a href="../">[+site_name+]</a></div>
+
         <div class="sectionBody">
 
             <p class="loginMessage">[+login_message+]</p>
-            <label>[+username+] </label>
+            <label><i class="fa fa-user fa-lg"></i> [+username+] </label>
             <input type="text" class="text" name="username" id="username" tabindex="1" value="[+uid+]" />
-            <label>[+password+] </label>
+            <label><i class="fa fa-key fa-lg"></i> [+password+] </label>
             <input type="password" class="text" name="password" id="password" tabindex="2" value="" />
             <p class="caption">[+login_captcha_message+]</p>
             <div>[+captcha_image+]</div>
