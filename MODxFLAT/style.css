@@ -621,6 +621,7 @@ background-clip:padding-box}
 a img {
 	border: 0;
 }
+
 .even {
 	background: #D9E7C2;
 }
@@ -685,12 +686,6 @@ text-shadow:none;
 color:#aaa; 
 text-decoration:line-through}
 
-/*
-#resourcesPane ul li a:hover,
-#templatesPane ul li a:hover {
-background:#82bd42; 
-background:linear-gradient(to bottom,#82bd42 0%,#9bc747 100%);
-}*/
 #tabCategory ul li a:hover{
 background: #cd4433; 
 }
@@ -764,6 +759,7 @@ div.treeframebody {
 	.rtl #treeRoot div img {
 		margin: 0;
 	}
+
 #floater {
 	display: none;
 	position: absolute;
@@ -788,10 +784,11 @@ div.treeNode {
 	white-space: nowrap;
 }
 .treeNodeSelected, .treeNodeHover
-{  color: #FFFFFF!important;
+{  color: #FFFFFF;
    padding: 1px 2px;
 	margin-left:-3px;
-	border:1px solid #232b2d; background-color:transparent;
+	border:1px solid #232b2d; 
+	background:transparent;
 }
 
 .unpublished a, .unpublishedNode, .unpublish {
@@ -1903,7 +1900,7 @@ float:left;
  margin:6px 20px 6px 0}
 
 
-/* dashboard stuff */
+/* Dashboard styles */
 .dashboard h1:before{
     content:'\f108';
     font-family: FontAwesome;
