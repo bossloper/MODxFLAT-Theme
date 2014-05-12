@@ -1137,11 +1137,11 @@ background: #499bea;
 	border-right-color: #dcdcdc;
 	border-bottom-color: #dcdcdc;
 	overflow: hidden;
-	line-height: 11px;
+	line-height: 12px;
 	box-shadow: 2px 2px 5px #666666;
 	-moz-box-shadow: 2px 2px 5px #666666;
 	-webkit-box-shadow: 2px 2px 10px #666666;
-	font-size:11px;
+	font-size:12px;
 }
 #mx_contextmenu .menuLink {
 	cursor: pointer;
@@ -1167,11 +1167,12 @@ background: #499bea;
 #mx_contextmenu .menuLink:hover img,
 #mx_contextmenu .menuLinkDisabled img {
 	margin-right: 5px;
+	margin-bottom:-4px;
 }
 #mx_contextmenu .menuLink img,
 #mx_contextmenu .menuLinkDisabled img {
-	opacity: .3;
-	filter: alpha(opacity=30);
+	opacity: .6;
+	filter: alpha(opacity=60);
 }
 #mx_contextmenu .menuLink:hover img {
 	opacity: 1;
@@ -1190,7 +1191,7 @@ background: #499bea;
 #mx_contextmenu .seperator {
 	font-size: 0;
 	height: 1px;
-	background-color: silver;
+	background-color: #e6e6e6;
 	overflow: hidden;
 	margin: 3px 1px 3px 28px;
 }
@@ -1500,6 +1501,8 @@ display:inline;
 list-style-type:none; 
 padding:0}
 .actionButtons a img{
+vertical-align: top;
+	margin-top: 1px;
 display:none}
 .actionButtons a{
 color:#FFF; 
@@ -1522,7 +1525,7 @@ background-color: #444;}
 .actionButtons a:hover, 
 .actionButtons a:active{
 color: #fff;
-  background-image:none;
+  /*background-image:none;*/
    background-color: #222222;
 }
   
@@ -2032,8 +2035,6 @@ border-radius:3px;
 #nav li.active ul.subnav a{color:#fff;}
 #treeMenu a.treeButtonDisabled:hover{color:#fff;}
 .sectionHeader {box-shadow: 0 0px 0 #fff inset;}
-.dynamic-tab-pane-control .tab-row .tab.selected {border-color:#c6c6c6;}
-.dynamic-tab-pane-control .tab-row .tab.hover {border-color:#c6c6c6;}
 .actionButtons select#stay{margin: -4px 0 0;}
 .dynamic-tab-pane-control .tab-row .tab {padding-top:0;}
 #which_editor{margin:5px 0 0;}
