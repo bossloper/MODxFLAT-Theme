@@ -341,9 +341,9 @@ width:350px}
 form select:focus, 
 form input[type=text]:focus, 
 form textarea:focus{
-box-shadow(0 0 5px rgba(81,203,238,1)); 
-box-shadow:0 0 5px #3588d4; 
-border:1px solid #3588d4}
+box-shadow:0 0 5px #80969c; 
+border: 1px solid #80969c;
+}
 
 input[type="button"], input[type="submit"]{
 border:1px solid #719e37; 
@@ -1267,7 +1267,7 @@ border-radius:4px 4px 0 0;
 .dynamic-tab-pane-control .tab-row .tab.hover{
 background:#f9f9f9; 
 text-decoration:none; 
-border-color:#499bea #c6c6c6 #FFFFFF #c6c6c6; 
+border-color:#c6c6c6 #c6c6c6 #FFFFFF #c6c6c6; 
 border-width:1px; 
 top:-4px; 
 z-index:3; 
@@ -1281,7 +1281,7 @@ z-index:3;
 .dynamic-tab-pane-control .tab-row .tab.selected{
 
 background:none repeat scroll 0 0 #f9f9f9; 
-border-color:#FF9900 #c6c6c6 #ffffff #c6c6c6; 
+border-color:#499bea #c6c6c6 #ffffff #c6c6c6; 
 border-style:solid; 
 border-width:1px 1px 0 1px; 
 top:-4px; 
