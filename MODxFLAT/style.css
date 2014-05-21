@@ -2000,6 +2000,22 @@ border-radius:3px;
 	font-weight:bold;
 	color: #333333;
 }
+
+.dashSeparator {
+display:block;
+float:left;
+width: 100%;
+clear: both;
+height:24px;
+border-bottom:2px solid #f1f1f1;
+padding:3px 25px;
+margin: 3px 0 4px 0;
+color: #d7d7d7;
+text-align:center;
+}
+
+
+
 .wm_button.green a i{color: #aece4e!important;}
 .wm_button.green2 a i{color: #6dbe3e!important;}
 .wm_button.red a i{color: #e77755!important;}
