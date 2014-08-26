@@ -1972,7 +1972,7 @@ padding-left:0px;
 color: #499bea;
 margin:3px 8px 8px 0px;
 }
-.dashboard-block-full div.sectionBody a i
+.dashboard-block-full div.sectionBody a i, .dashboard-block-half div.sectionBody a i
 {
 padding-left:10px;
 color: #499bea;
@@ -2014,7 +2014,9 @@ color: #d7d7d7;
 text-align:center;
 }
 
-
+.green2 {color: #6dbe3e!important;}
+.red2 {color: #ea4848!important;}
+.blueberry {color: #466baf!important;}
 
 .wm_button.green a i{color: #aece4e!important;}
 .wm_button.green2 a i{color: #6dbe3e!important;}
