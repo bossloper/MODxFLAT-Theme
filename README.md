@@ -12,3 +12,6 @@ MODxFLAT with Color Skins
 https://github.com/Nicola1971/MODxFLAT-Colors
 
 ![color skin](https://raw.githubusercontent.com/Nicola1971/training-materials/master/Images/MODxColors.jpg)
+
+## 2.2 
+* font-awesome-4.2.0
