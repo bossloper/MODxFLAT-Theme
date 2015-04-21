@@ -897,7 +897,8 @@ padding:5px;
 .searchbutton img {
 	vertical-align: middle;
 	margin: 0;
-	padding: 0
+	padding: 0;
+	display: block;
 }
 .searchtoolbarbtn {
 	text-decoration: none;
@@ -1504,6 +1505,9 @@ padding:0}
 vertical-align: top;
 	margin-top: 1px;
 display:none}
+.searchbar .actionButtons a img{
+display:inline;
+}
 .actionButtons a{
 color:#FFF; 
 font-weight:bold; 
