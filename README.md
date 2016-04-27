@@ -16,7 +16,6 @@ https://github.com/Nicola1971/MODxFLAT-Colors
 # Updates
 
 ## 2.3
-* new Grey Skin
 * updated Font Awesome to 4.6.1
 * sort tree items icon https://github.com/Nicola1971/MODxFLAT-Theme/issues/2
 
