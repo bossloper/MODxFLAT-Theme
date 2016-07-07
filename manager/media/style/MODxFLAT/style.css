@@ -1909,6 +1909,7 @@ float:left;
 
 
 /* Dashboard styles */
+
 .dashboard h1:before{
     content:'\f108';
     font-family: FontAwesome;
@@ -2126,4 +2127,12 @@ padding:6px 8px;
 background-color: #FFF;
 border: 1px solid #ddd;
 }
+/*evodashboard 3.0 update*/
 
+.primarycolor {color: #499bea;}
+.lightcolor {color: #CCE4F7;}
+.red{color: #e77755;}
+
+.gridster > * {
+    margin: 0 auto 0 -30px!important;
+}
