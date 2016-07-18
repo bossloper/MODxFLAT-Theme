@@ -216,7 +216,7 @@ hr {
 #workText {
 	font-weight: bold;
 	line-height: 16px;
-	margin: 0 15px;
+	margin: 0 8px;
 	color: #FFF;
 }
 #tocText,
@@ -227,7 +227,7 @@ hr {
 #statusbar {
 	position: absolute;
 	right: 0;
-	top: 27px;
+	top: 20px;
 }
 	.rtl #statusbar {
 		left: 0;
@@ -811,7 +811,7 @@ div.treeNode {
 	cursor: default;
 }
 .notInMenuNode {
-	color: #80969c;
+	color: #a5c8e5;
 	text-decoration: none;
 }
 .treeNodeHover .notInMenuNode, .treeNodeSelected .notInMenuNode{
@@ -875,6 +875,27 @@ padding:5px;
 	vertical-align: middle;
 	padding-right: 4px;
 }
+.grid .pagerClass {
+	background:#eee!important;
+	text-align:right!important;
+	line-height:26px
+}
+.grid .pagerClass span, .grid .pagerClass a {
+	background:#999;
+	padding:5px 5px;
+	-moz-border-radius:3px; 
+	-webkit-border-radius:3px; 
+	-ms-border-radius:3px; 
+	-o-border-radius:3px; 
+	border-radius:3px; 
+}
+.grid .pagerClass a {
+	background:#499bea;
+color:#fff;
+}
+.grid .pagerClass a:hover {
+	background:#333;
+}
 /* -------------------------[ search bar ]--- */
 .searchbar {
 	width: 100%;
@@ -882,6 +903,7 @@ padding:5px;
 .searchtext {
 	height: 18px;
 	padding: 2px;
+	margin-top:-5px!important;
 }
 .searchbutton {
 	width: 22px;
